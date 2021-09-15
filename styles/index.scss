@@ -1,0 +1,126 @@
+@import 'variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  background-color: $color-main;
+  font-family: Montserrat, sans-serif;
+  color: $color-text-white;
+  justify-content: center;
+  padding-top: 112px;
+  padding-bottom: 115px;
+}
+
+.price-card {
+  background-color: $color-dark-grey;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  width: 380px;
+  height: 773px;
+  margin-right: 18px;
+}
+
+.price-card:last-child {
+  margin-right: 0;
+}
+
+.price-card__title {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 67px;
+  text-align: center;
+  margin: 0;
+  margin-top: 36px;
+}
+
+.price-card__subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.price-card__price {
+  height: 105px;
+  width: 380px;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green .price-card__price {
+  background-color: $color-green;
+}
+
+.blue .price-card__price {
+  background-color: $color-blue;
+}
+
+.orange .price-card__price {
+  background-color: $color-orange;
+}
+
+.price-card__description {
+  margin: 40px auto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: center;
+}
+
+.price-card__options-list {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  padding: 0;
+  list-style-image: url(img/shape.png);
+}
+
+.option {
+  line-height: 50px;
+  width: 380px;
+  list-style-position: inside;
+  padding-left: 22px;
+}
+
+.option-dark {
+  background-color: #2a3438;
+}
+
+.order-btn {
+  height: 40px;
+  width: 154.86752319335938px;
+  border-radius: 20px;
+  margin: auto;
+  border: none;
+  color: $color-white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.green .order-btn {
+  background-color: $color-green;
+}
+
+.blue .order-btn {
+  background-color: $color-blue;
+}
+
+.orange .order-btn {
+  background-color: $color-orange;
+}
