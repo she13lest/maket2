@@ -81,7 +81,15 @@
   font-weight: 300;
   line-height: 18px;
   padding: 0;
-  list-style-image: url(img/shape.png);
+  list-style-image: url(img/shape-blue.png);
+}
+
+.green .price-card__options-list {
+  list-style-image: url(img/shape-green.png);
+}
+
+.orange .price-card__options-list {
+  list-style-image: url(img/shape-orange.png);
 }
 
 .option {
