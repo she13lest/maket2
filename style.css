@@ -121,4 +121,20 @@ img {
   background-color: #EC632A;
 }
 
+.badge {
+  position: absolute;
+  background-color: #DC3F45;
+  width: 147px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+  right: -31px;
+  top: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
 /*# sourceMappingURL=style.css.map */

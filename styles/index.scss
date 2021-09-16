@@ -128,3 +128,19 @@ img {
 .webshop {
   background-color: $color-orange;
 }
+
+.badge {
+  position: absolute;
+  background-color: $color-red;
+  width: 147px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+  right: -31px;
+  top: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
