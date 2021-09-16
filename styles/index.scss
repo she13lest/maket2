@@ -64,7 +64,7 @@ html {
     justify-content: center;
     align-items: center;
     background-color: $color-green;
-    margin-bottom: 40px;
+  
   }
 
   &__description {
@@ -72,6 +72,14 @@ html {
     font-weight: 300;
     line-height: 18px;
     text-align: center;
+    
+    & p {
+      padding: 0;
+      height: 36px;
+      width: 327.4938049316406px;
+      text-align: center;
+     margin: 40px 26px;
+    }
   }
 
   &__options-list {

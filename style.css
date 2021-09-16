@@ -60,13 +60,19 @@ html {
   justify-content: center;
   align-items: center;
   background-color: #5BB189;
-  margin-bottom: 40px;
 }
 .price-card__description {
   font-size: 15px;
   font-weight: 300;
   line-height: 18px;
   text-align: center;
+}
+.price-card__description p {
+  padding: 0;
+  height: 36px;
+  width: 327.4938049316px;
+  text-align: center;
+  margin: 40px 26px;
 }
 .price-card__options-list {
   font-size: 15px;
