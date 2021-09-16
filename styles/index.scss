@@ -64,7 +64,6 @@ html {
     justify-content: center;
     align-items: center;
     background-color: $color-green;
-  
   }
 
   &__description {
@@ -72,13 +71,13 @@ html {
     font-weight: 300;
     line-height: 18px;
     text-align: center;
-    
+
     & p {
       padding: 0;
       height: 36px;
       width: 327.4938049316406px;
       text-align: center;
-     margin: 40px 26px;
+      margin: 40px 26px;
     }
   }
 
@@ -151,4 +150,5 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+  text-transform: uppercase;
 }
