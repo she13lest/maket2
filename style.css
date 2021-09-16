@@ -37,17 +37,20 @@ html {
 .price-card__title {
   text-align: center;
   margin: 33px 140px;
+  height: 64px;
+  width: 163.74px;
 }
 .price-card__title h1 {
   font-weight: 700;
-  line-height: 48px;
-  font-size: 25px;
+  line-height: 43px;
+  font-size: 35px;
   margin: 0;
 }
 .price-card__title p {
   margin: 0;
-  line-height: 30px;
-  font-size: 18px;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 300;
 }
 .price-card__price {
   height: 105px;
@@ -70,7 +73,7 @@ html {
 .price-card__description p {
   padding: 0;
   height: 36px;
-  width: 327.4938049316px;
+  width: 327.4px;
   text-align: center;
   margin: 40px 26px;
 }
@@ -104,7 +107,7 @@ img {
 
 .order-btn {
   height: 40px;
-  width: 154.86px;
+  width: 154.8px;
   border-radius: 20px;
   margin: auto;
   border: none;
