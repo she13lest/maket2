@@ -4,7 +4,7 @@
 
 body {
   font-family: Montserrat, sans-serif;
-  background-color: #141B1C;
+  background-color: #141b1c;
   font-size: 16px;
   min-width: 100vw;
   min-height: 100vh;
@@ -60,7 +60,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5BB189;
+  background-color: #5bb189;
 }
 .price-card__description {
   font-size: 15px;
@@ -94,7 +94,10 @@ body {
   list-style-position: inside;
 }
 .option:nth-child(odd) {
-  background-color: #2A3438;
+  background: rgba(42, 52, 56, 0.5);
+}
+.option:nth-child(even) {
+  background: #334247;
 }
 
 img {
@@ -117,20 +120,20 @@ img {
   text-align: center;
   margin: 0 auto;
   display: block;
-  background-color: #5BB189;
+  background-color: #5bb189;
 }
 
 .business {
-  background-color: #3A6BA5;
+  background-color: #3a6ba5;
 }
 
 .webshop {
-  background-color: #EC632A;
+  background-color: #ec632a;
 }
 
 .badge {
   position: absolute;
-  background-color: #DC3F45;
+  background-color: #dc3f45;
   width: 147px;
   height: 25px;
   display: flex;
