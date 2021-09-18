@@ -59,13 +59,25 @@ body {
   &__price {
     height: 105px;
     width: 380px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 55px;
     line-height: 67px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .basic .price-card__price {
+    background-color: $color-green;
+  }
+
+  .business .price-card__price {
+    background-color: $color-blue;
+  }
+
+  .webshop .price-card__price {
+    background-color: $color-orange;
   }
 
   &__description {

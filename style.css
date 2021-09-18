@@ -52,13 +52,22 @@ body {
 .price-card__price {
   height: 105px;
   width: 380px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 55px;
   line-height: 67px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.price-card .basic .price-card__price {
+  background-color: #5bb189;
+}
+.price-card .business .price-card__price {
+  background-color: #3a6ba5;
+}
+.price-card .webshop .price-card__price {
+  background-color: #ec632a;
 }
 .price-card__description {
   font-size: 15px;
