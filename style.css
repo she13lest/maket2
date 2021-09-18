@@ -94,7 +94,7 @@ body {
   list-style-position: inside;
 }
 .option:nth-child(odd) {
-  background: rgba(42, 52, 56, 0.5);
+  background: #2a3438;
 }
 .option:nth-child(even) {
   background: #334247;
