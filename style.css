@@ -59,7 +59,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5bb189;
 }
 .price-card__description {
   font-size: 15px;
@@ -128,6 +127,10 @@ img {
 
 .webshop {
   background-color: #ec632a;
+}
+
+.basic {
+  background-color: #5bb189;
 }
 
 .badge {
