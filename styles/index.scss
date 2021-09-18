@@ -22,7 +22,7 @@ body {
 
 .price-card {
   position: relative;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+
   overflow: hidden;
   width: 380px;
   height: 773px;
@@ -36,7 +36,7 @@ body {
   &__title {
     text-align: center;
     padding-top: 33px;
-    padding-bottom: 32px;
+    padding-bottom: 33px;
     height: 130px;
     margin: auto;
 
