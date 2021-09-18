@@ -66,18 +66,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    &.basic {
+      background-color: $color-green;
+    }
 
-  .green .price-card__price {
-    background-color: $color-green;
-  }
+    &.business {
+      background-color: $color-blue;
+    }
 
-  .blue .price-card__price {
-    background-color: $color-blue;
-  }
-
-  .orange .price-card__price {
-    background-color: $color-orange;
+    &.webshop {
+      background-color: $color-orange;
+    }
   }
 
   &__description {
@@ -145,6 +144,18 @@ img {
   margin: 0 auto;
   display: block;
   background-color: $color-green;
+
+  &.basic {
+    background-color: $color-green;
+  }
+
+  &.business {
+    background-color: $color-blue;
+  }
+
+  &.webshop {
+    background-color: $color-orange;
+  }
 }
 
 .badge {
