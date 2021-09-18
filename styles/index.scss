@@ -4,30 +4,26 @@
   box-sizing: border-box;
 }
 
-html {
+body {
   font-family: Montserrat, sans-serif;
   background-color: $color-main;
   font-size: 16px;
-}
-
-.main {
+  min-width: 100vw;
+  min-height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-white;
 }
 
 .price-tables {
-  margin: auto;
   display: flex;
-  color: $color-white;
-  justify-content: center;
-  align-items: center;
-  width: 1440px;
-  height: 1000px;
 }
 
 .price-card {
   position: relative;
-  overflow: hidden;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  overflow: hidden;
   width: 380px;
   height: 773px;
   margin-right: 18px;
@@ -39,9 +35,11 @@ html {
 
   &__title {
     text-align: center;
-    margin: 33px 140px;
-    height: 64px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    height: 130px;
     width: 163.74px;
+    margin: auto;
 
     h1 {
       font-weight: 700;
@@ -50,7 +48,7 @@ html {
       margin: 0;
     }
 
-    p {
+    h2 {
       margin: 0;
       line-height: 24px;
       font-size: 20px;
@@ -76,10 +74,11 @@ html {
     font-weight: 300;
     line-height: 18px;
     text-align: center;
+    height: 116px;
 
-    & p {
+    p {
       padding: 0;
-      height: 36px;
+
       width: 327.4px;
       text-align: center;
       margin: 40px 26px;
