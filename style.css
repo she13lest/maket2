@@ -49,7 +49,6 @@ body {
   font-weight: 300;
 }
 .price-card__price {
-  display: block;
   height: 105px;
   width: 380px;
   font-weight: 700;
