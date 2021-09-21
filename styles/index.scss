@@ -22,7 +22,6 @@ body {
 
 .price-card {
   position: relative;
-
   overflow: hidden;
   width: 380px;
   height: 773px;
@@ -38,7 +37,7 @@ body {
     padding-top: 33px;
     padding-bottom: 33px;
     height: 130px;
-    margin: auto;
+    margin: 0 auto;
 
     h1 {
       font-weight: 700;
@@ -56,6 +55,7 @@ body {
   }
 
   &__price {
+    margin: 0;
     height: 105px;
     width: 380px;
     font-weight: 700;
