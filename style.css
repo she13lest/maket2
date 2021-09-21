@@ -34,7 +34,7 @@ body {
   padding-top: 33px;
   padding-bottom: 33px;
   height: 130px;
-  margin: auto;
+  margin: 0 auto;
 }
 .price-card__title h1 {
   font-weight: 700;
@@ -49,6 +49,8 @@ body {
   font-weight: 300;
 }
 .price-card__price {
+  margin: 0;
+  padding: 0;
   height: 105px;
   width: 380px;
   font-weight: 700;
